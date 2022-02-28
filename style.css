@@ -1,0 +1,160 @@
+/*********** UNIVERSAL ************/
+html {
+    font-family: 'Arial';
+    text-align: left;
+    color: black;
+}
+
+/*********** TEXT ************/
+h1 {
+    font-weight: 700;
+    font-size: 64;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 36;
+}
+
+h3 {
+    font-size: 24;
+}
+
+p {
+    font-size: 20;
+}
+
+/*********** HEADER ************/
+.header {
+    overflow: hidden;
+    text-align: center;
+}
+
+.header a {
+    float: right;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header a.current {
+    text-decoration: underline;
+    color: black;
+}
+
+/*********** VISUAL BODY ************/
+
+button {
+    display: inline-block;
+    padding: 15px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    background-color: #BB0000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type=text], input[type=password] {
+    font-size: 20;
+    width: 90%;
+    padding: 15px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #BB0000;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.filter {
+    overflow: hidden;
+    text-align: center;
+}
+
+.filter a {
+    float: left;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.filter a.current {
+    text-decoration: underline;
+    color: black;
+}
+
+input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 200px;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/*********** COLUMNS ************/
+.column {
+  float: left;
+  padding: 10px;
+}
+
+
+.left {
+    padding-top: 200px;
+    padding-left: 100px;
+    width: 55%;
+    text-align: left;
+}
+
+.right {
+    margin-top:150px;
+    margin-right: 100px;
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*********** TEXT ADJUSTMENT ************/
+.bold {
+    font-weight: 700;
+}
+
+.regular {
+    font-weight: normal;
+}
+
+.italic {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.link {
+    text-align: right;
+    font-size: 14;
+    color: lightgray;
+}
+
+.light {
+    color: lightgray;
+}
+
+.click {
+    color: #BB0000;
+    text-decoration: underline;
+  }
